@@ -1,0 +1,12 @@
+# OpenAI API 配置
+api_key: "your-api-key-here"
+model: "gpt-3.5-turbo"
+api_base: "https://api.openai.com/v1"
+
+# 請求配置
+max_retries: 3
+retry_delay: 5
+max_tokens: 500
+temperature: 0.3
+
+# 示例說明：將此文件複製為 config.yaml 並填入你的 API 密鑰 

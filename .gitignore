@@ -1,0 +1,38 @@
+# 忽略配置文件（包含API密鑰）
+config.yaml
+.env
+
+# 忽略生成的摘要文件
+code_summary_tree.json
+
+# Python相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虛擬環境
+venv/
+ENV/
+
+# IDE相關
+.idea/
+.vscode/
+*.swp
+*.swo 

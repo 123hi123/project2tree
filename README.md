@@ -102,6 +102,28 @@ python code_summarizer.py
 }
 ```
 
+## 可視化樹狀結構
+
+生成JSON摘要後，您可以使用 `tree_visualizer.py` 將JSON文件轉換為更易讀的樹狀結構文本文件：
+
+```bash
+python tree_visualizer.py
+```
+
+這個腳本會讀取 `code_summary_tree.json` 文件，並生成 `code_summary_tree.txt` 文件，內容如下：
+
+```
+代碼摘要樹狀結構
+==============
+
+├── code_summarizer.py    這個文件包含代碼摘要生成器的主要實現...
+├── README.md    專案說明文檔...
+├── requirements.txt    專案依賴項列表...
+└── tree_visualizer.py    將JSON樹狀結構轉換為文本格式的工具...
+```
+
+樹狀結構文件提供了更清晰的專案結構視圖，特別適合與團隊成員分享或快速瀏覽整個專案的代碼摘要。
+
 ## 疑難排解
 
 如果遇到 "API密鑰未設置" 錯誤，請確保：
